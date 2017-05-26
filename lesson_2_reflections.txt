@@ -7,3 +7,15 @@ Staging area is different in that it has only the files from working directory w
 
 How can you use the staging area to make sure you have one commit per logical change?
 we can keep changing and putting files in staging area till we have one all changes needed in a logical change and then commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+when doing experimental changes or people working on different parts of a big repo can have branches for each sub project.
+
+How do the diagrams help you visualize the branch structure?
+gives an easy to understand view of commits that can be reached and unreachable commits that will be lost.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+a new branch with label as current checked out branch. as commits from both branches are there and can be reached.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+helpful for most of the times but can lead to errors when merged not as expected
