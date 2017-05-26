@@ -4,3 +4,6 @@ it creates hidden files that might be used for tracking changes. To make a repos
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is different in that it has only the files from working directory where changes have been made or are to be added to repo. it provides a temporary place to store files while changes are still being made.
+
+How can you use the staging area to make sure you have one commit per logical change?
+we can keep changing and putting files in staging area till we have one all changes needed in a logical change and then commit.
